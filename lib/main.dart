@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:invoice_web/theme/theme.dart';
 import 'package:invoice_web/ui/main_view.dart';
 
 void main() {
@@ -12,9 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: lightThemeData,
+      darkTheme: darkThemeData,
       home: const MainView(),
     );
   }
