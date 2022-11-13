@@ -1,0 +1,21 @@
+name: helpers
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.0
+  path_provider: ^2.0.9
+  connectivity_plus: ^2.3.0
+  intl: 0.17.0
+  retry: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,20 @@
+name: country_picker
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ^0.27.3
+  equatable: ^2.0.3
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

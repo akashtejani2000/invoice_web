@@ -1,0 +1,94 @@
+abstract class AppImages {
+  static const _iconPath = "assets/images/";
+
+  static const String appLogo = '${_iconPath}app_logo.svg';
+  static const String splashImage = '${_iconPath}splash_image.svg';
+  static const String notification = '${_iconPath}notification.svg';
+  static const String heart = '${_iconPath}heart.svg';
+  static const String unFillHeart = '${_iconPath}heart_unfill.svg';
+  static const String export = '${_iconPath}export.svg';
+  static const String star = '${_iconPath}star.svg';
+  static const String profile2user = '${_iconPath}profile-2user.svg';
+  static const String message = '${_iconPath}message.svg';
+  static const String galleryAdd = '${_iconPath}gallery-add.svg';
+  static const String category = '${_iconPath}category.svg';
+  static const String discountShape = '${_iconPath}discount-shape.svg';
+  static const String alert = '${_iconPath}alert.svg';
+  static const String notFound = '${_iconPath}not_found.svg';
+  static const String success = '${_iconPath}success.svg';
+  static const String paypal = '${_iconPath}paypal.svg';
+  static const String facebook = '${_iconPath}facebook.svg';
+  static const String google = '${_iconPath}google.svg';
+  static const String email = '${_iconPath}email.svg';
+  static const String password = '${_iconPath}password.svg';
+  static const String person = '${_iconPath}person.svg';
+  static const String fonbording = '${_iconPath}f_onbording.svg';
+  static const String searchnormal = '${_iconPath}search-normal.svg';
+  static const String boxImg = '${_iconPath}box.svg';
+  static const String cubeImg = '${_iconPath}cube.svg';
+  static const String sonbording = '${_iconPath}s_onbording.svg';
+  static const String tonbording = '${_iconPath}t_onbording.svg';
+  static const String homeImg = '${_iconPath}image Product.png';
+
+  static const String apple = '${_iconPath}apple.png';
+  static const String location = '${_iconPath}location.svg';
+  static const String search = '${_iconPath}search.svg';
+  static const String banner = '${_iconPath}banner_image.png';
+  static const String product1 = '${_iconPath}product_1.png';
+
+  static const String navAccount = '${_iconPath}nav_account.svg';
+  static const String navChat = '${_iconPath}nav_chat.svg';
+  static const String navCreate = '${_iconPath}nav_create.svg';
+  static const String navExplore = '${_iconPath}nav_explore.svg';
+  static const String navForYou = '${_iconPath}nav_for_you.svg';
+
+  static const String itemExchange = '${_iconPath}item_exchange.svg';
+  static const String camera = '${_iconPath}camera.svg';
+  static const String arrowRight = '${_iconPath}arrow_right.svg';
+
+  static const String backArrow = '${_iconPath}back.svg';
+  static const String edit = '${_iconPath}edit.svg';
+  static const String searchImg = ' ${_iconPath}searchimg.svg';
+  static const String userImg = '${_iconPath}User.svg';
+
+  static const String swapProduct = '${_iconPath}swap_product.png';
+  static const String trash = '${_iconPath}trash.svg';
+  static const String deliveryTruck = '${_iconPath}delivery_truck.svg';
+  static const String share = '${_iconPath}share.svg';
+  static const String dollar = '${_iconPath}dollar.svg';
+  static const String staticMap = '${_iconPath}static_map.png';
+  static const String calendar = '${_iconPath}calendar.svg';
+  static const String product2 = '${_iconPath}product2.png';
+  static const String verify = '${_iconPath}verify.svg';
+  static const String productIcon = '${_iconPath}product_icon.svg';
+  static const String wallet = '${_iconPath}wallet.svg';
+  static const String settings = '${_iconPath}settings.svg';
+  static const String link = '${_iconPath}link.svg';
+  static const String send = '${_iconPath}send.svg';
+  static const String gallery = '${_iconPath}gallery.svg';
+  static const String close = '${_iconPath}close.svg';
+  static const String selected = '${_iconPath}selected.svg';
+  static const String placeholder = '${_iconPath}placeholder.png';
+  static const String womenFashion = '${_iconPath}women_fashion.svg';
+  static const String menFashion = '${_iconPath}men_fashion.svg';
+  static const String phoneTablet = '${_iconPath}phone_tablet.svg';
+  static const String allowCalls = '${_iconPath}allow_calls.svg';
+  static const String verificationImg = '${_iconPath}verification.png';
+  static const String callImg = '${_iconPath}call.svg';
+  static const String blockUser = '${_iconPath}block_user.svg';
+  static const String deliveryImg = '${_iconPath}delivery.svg';
+  static const String nextImg = '${_iconPath}next.svg';
+  static const String suggestSwap = '${_iconPath}suggest_swap.svg';
+  static const String browseItem = '${_iconPath}browse_item.png';
+  static const String addItem = '${_iconPath}add_item.png';
+  static const String halfStar = '${_iconPath}half_star.svg';
+  static const String iconsDownArrow = '${_iconPath}down_arrow.svg';
+  static const String eyeShow = '${_iconPath}show.svg';
+  static const String eyeHide = '${_iconPath}hide.svg';
+  static const String userPlaceholder = '${_iconPath}user_placeholder.png';
+  static const String locationFill = '${_iconPath}location_fill.svg';
+  static const String convertNotification = '${_iconPath}convert_notification.svg';
+  static const String discountNotification = '${_iconPath}discount_notification.svg';
+  static const String notificationIcon = '${_iconPath}notification_icon.svg';
+  static const String addIcon = '${_iconPath}add.svg';
+}
