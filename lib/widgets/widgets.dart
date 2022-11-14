@@ -1,19 +1,20 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:invoice_web/layout/src/widget/app_image.dart';
+import 'package:invoice_web/pref/app_pref.dart';
 import 'package:invoice_web/resourese/src/colors/colors.dart';
 import 'package:invoice_web/resourese/src/images/images.dart';
-import 'package:invoice_web/ui/widgets/clickable_container.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:invoice_web/ui/widgets/src/image.dart';
+import 'package:invoice_web/widgets/clickable_container.dart';
 import 'package:lottie/lottie.dart';
 
-part 'src/button.dart';
+part 'button.dart';
+part 'drop_down.dart';
+part 'image.dart';
+part 'text.dart';
+part 'text_field.dart';
 
-part 'src/drop_down.dart';
-
-part 'src/text.dart';
-
-part 'src/text_field.dart';
 
 class SizeBoxV extends StatelessWidget {
   final double size;
@@ -59,7 +60,7 @@ class AppBarIcon extends StatelessWidget {
   final Color? color;
   final VoidCallback onTap;
 
-  const AppBarIcon(this.image, {required this.onTap, this.color});
+  const AppBarIcon(this.image, {super.key, required this.onTap, this.color});
 
   @override
   Widget build(BuildContext context) => Material(
@@ -79,7 +80,7 @@ class AppBarIcon extends StatelessWidget {
 class CircleLoader extends StatelessWidget {
   final double size;
 
-  const CircleLoader({this.size = 200});
+  const CircleLoader({super.key, this.size = 200});
 
   @override
   Widget build(BuildContext context) {

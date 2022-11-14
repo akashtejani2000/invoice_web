@@ -1,4 +1,6 @@
-part of '../widgets.dart';
+part of 'widgets.dart';
+
+
 
 class CommonText extends StatelessWidget {
   final String text;

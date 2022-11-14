@@ -1,8 +1,4 @@
-
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:invoice_web/pref/app_pref.dart';
+part of'widgets.dart';
 
 class SquareImageFromAsset extends StatelessWidget {
   final String image;
