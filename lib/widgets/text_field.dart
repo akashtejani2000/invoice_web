@@ -56,7 +56,7 @@ class CommonTextField extends StatelessWidget {
     this.hintText = "",
     this.textAlign = TextAlign.start,
     this.icon,
-    this.labelColor = AppColor.textPrimary,
+    this.labelColor = AppColor.primary,
     this.onTap,
     this.fillColor,
     this.borderColor,
@@ -67,7 +67,7 @@ class CommonTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     var borderRadius = this.borderRadius ??
         BorderRadius.circular(8);
-    var fillColor =  AppColor.lightBlue;
+    var fillColor =  AppColor.colorSecondaryDark;
     var borderColor = AppColor.transparent;
 
     return Column(
@@ -91,7 +91,7 @@ class CommonTextField extends StatelessWidget {
           onChanged: onChanged,
           keyboardType: keyboardType,
           autovalidateMode: AutovalidateMode.onUserInteraction,
-          style: const TextStyle(color: AppColor.textPrimary, fontWeight: FontWeight.w500, fontSize: 16, height: 1.5),
+          style: const TextStyle(color: AppColor.colorSecondaryDark, fontWeight: FontWeight.w500, fontSize: 16, height: 1.5),
           textAlign: textAlign,
           maxLines: maxLines,
           minLines: minLines,
@@ -127,7 +127,7 @@ class CommonTextField extends StatelessWidget {
             errorStyle: const TextStyle(color: AppColor.error, fontWeight: FontWeight.w500, fontSize: 12, height: 1.5),
             hintText: hintText,
             hintStyle: const TextStyle(
-                color: AppColor.textPrimaryLight, fontWeight: FontWeight.w500, fontSize: 16, height: 1.5),
+                color: AppColor.colorSecondaryDark, fontWeight: FontWeight.w500, fontSize: 16, height: 1.5),
             prefix: prefix,
             suffix: suffix,
             prefixIcon: prefixIcon,

@@ -71,14 +71,14 @@ abstract class AppTheme {
       outlinedButtonTheme: OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
           minimumSize: const Size.fromHeight(48),
-          primary: AppColor.textPrimaryLight,
+          primary: AppColor.colorSecondaryDark,
           textStyle: const TextStyle(
             fontWeight: FontWeight.w700,
             fontFamily: kFontFamily,
             fontSize: 14,
             letterSpacing: 0
           ),
-          side: const BorderSide(color: AppColor.border),
+          side: const BorderSide(color: AppColor.colorSecondaryDark),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
         ),
       ),
@@ -277,7 +277,7 @@ abstract class AppTheme {
       indicator: BoxDecoration(
         color: colorScheme.primary,
         borderRadius: const BorderRadius.all(Radius.circular(12)),
-        boxShadow: const [BoxShadow(color: AppColor.textPrimaryLight, offset: Offset(0, 1))],
+        boxShadow: [BoxShadow(color: AppColor.colorSecondaryDark, offset: Offset(0, 1))],
       ),
       labelPadding: const EdgeInsets.symmetric(horizontal: 16),
     );
@@ -308,11 +308,11 @@ abstract class AppTheme {
     return CardTheme(
       color: colorScheme.background,
       elevation: 4,
-      shadowColor: AppColor.textPrimaryLight.withAlpha(50),
+      shadowColor: AppColor.colorSecondaryDark.withAlpha(50),
       clipBehavior: Clip.hardEdge,
       margin: EdgeInsets.zero,
-      shape: const RoundedRectangleBorder(
-        side: BorderSide(color: AppColor.textPrimaryLight),
+      shape: RoundedRectangleBorder(
+        side: BorderSide(color: AppColor.colorSecondaryDark),
         borderRadius: BorderRadius.all(Radius.circular(14)),
       ),
     );
@@ -365,7 +365,7 @@ class AppButtonBackgroundColor extends MaterialStateProperty<Color> {
   @override
   Color resolve(Set<MaterialState> states) {
     if (states.contains(MaterialState.disabled)) {
-      return AppColor.textPrimaryLight;
+      return AppColor.colorSecondaryDark;
     }
     return primary;
   }

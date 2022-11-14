@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
+part of'home_view.dart';
 
-class HomeProvider extends ChangeNotifier {
+class HomeProvider extends BaseProvider {
+  HomeProvider(super.context);
 
 }
