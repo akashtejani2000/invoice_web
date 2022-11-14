@@ -6,14 +6,14 @@ import 'package:invoice_web/ui/splash_screen/splash_screen.dart';
 import 'package:provider/provider.dart';
 part 'app_provider.dart';
 
-class SwapsiesApp extends StatefulWidget {
-  const SwapsiesApp({Key? key}) : super(key: key);
+class InvoiceApp extends StatefulWidget {
+  const InvoiceApp({Key? key}) : super(key: key);
 
   @override
-  State<SwapsiesApp> createState() => _SwapsiesAppState();
+  State<InvoiceApp> createState() => _InvoiceAppState();
 }
 
-class _SwapsiesAppState extends State<SwapsiesApp> {
+class _InvoiceAppState extends State<InvoiceApp> {
   @override
   void initState() {
     super.initState();
